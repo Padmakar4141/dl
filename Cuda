@@ -127,3 +127,11 @@ int main() {
   cudaFreeHost(C);
   return 0;
 }
+
+
+
+
+
+!nvcc mat.cu -o mat
+
+!./mat
